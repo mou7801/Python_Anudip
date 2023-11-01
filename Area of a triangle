@@ -1,0 +1,12 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #Write a python program to find the area of a triangle whose sides are given
+>>> #Taking the sides
+>>> a=8
+>>> b=6
+>>> c=3
+>>> #calculation
+>>> s=(a+b+c)/2
+>>> area=(s*(s-a)*(s-b)*(s-c))**0.5
+>>> print("The area of the triangle is",area)
+The area of the triangle is 7.644442425710328

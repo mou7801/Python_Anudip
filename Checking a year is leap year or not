@@ -1,0 +1,13 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #Checking a year is leap year or not
+>>> #Taking input
+>>> year=int(input("Enter the year:"))
+Enter the year:2500
+>>> if(year%4==0 and year%100!=0 or year%400==0):
+...     print("The year which you have entered is LEAP YEAR")
+... else:
+...     print("The year which you have entered is NOT LEAP YEAR")
+... 
+...     
+The year which you have entered is NOT LEAP YEAR

@@ -1,0 +1,10 @@
+Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #Find the simple interest on Rs 200 for 5 years at 5% per year
+>>> #Taking the variables
+>>> p=200
+>>> r=5
+>>> t=5
+>>> i=(p*r*t)/100
+>>> print("The interest is:",i)
+The interest is: 50.0

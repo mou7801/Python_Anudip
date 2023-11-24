@@ -1,0 +1,17 @@
+# Compute the standard deviation of the NumPy array list
+
+
+
+import numpy as np #importing numpy
+array=[20,2,7,1,34]#taking of input using array
+standard_deviation=np.std(array) #np.std is using to find out the standard deviation of the given array
+print("The Standard deviation of the given array list is:\n",standard_deviation) #printing of standard deviation as result of the program
+
+
+
+
+///***OUTPUT***///
+
+= RESTART: C:/Users/DELL/Documents/COMPUTE THE STANDARD DEVIATION OF THE NUMPY ARRAY
+The Standard deviation of the given array list is:
+ 12.576167937809991

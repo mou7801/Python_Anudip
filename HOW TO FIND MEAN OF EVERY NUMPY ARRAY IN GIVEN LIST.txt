@@ -1,0 +1,18 @@
+#How to find the mean of every NumPy array in the given list?
+
+
+
+import numpy as np #importing numpy
+list=np.array([3,2,8,9]),np.array([4,12,34,25,78]),np.array([23,12,67]) #taking the array input 
+l=[] #initialization of output l
+for i in range(len(list)): #using len in for loop to check the length of the given lis
+      l.append(np.mean(list[i])) #np.mean will find the mean of the given list
+print("The mean of the given lists are:\n",l) #printing of mean as output of the program
+
+
+
+///***OUTPUT***///
+
+===================== RESTART: C:/Users/DELL/Documents/SUB =====================
+The mean of the given lists are:
+ [5.5, 30.6, 34.0]

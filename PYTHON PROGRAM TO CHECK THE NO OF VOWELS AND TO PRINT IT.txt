@@ -1,0 +1,36 @@
+#Write a Python program to count and display the vowels of a given text
+
+
+#Declaring string as input
+string=str(input("Enter your string:"))
+vowels=0
+print()
+print("The vowels are:")
+
+#Taking for loop to check whether it is vowel or not and for printing
+for i in string:
+    if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='O' or i=='I' or i=='U'):
+         print(i)#to print the vowels
+         vowels=vowels+1 #to count the vowels
+print("Number of vowels are:", vowels)
+
+
+
+
+***///OUTPUT///***
+
+= RESTART: C:/Users/DELL/Documents/vowels.py
+Enter your string:Welcome to python Training
+
+The vowels are:
+e
+o
+e
+o
+o
+a
+i
+i
+Number of vowels are: 8
+
+

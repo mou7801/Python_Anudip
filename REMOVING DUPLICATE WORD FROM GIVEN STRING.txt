@@ -1,0 +1,32 @@
+#Write a Python program to remove duplicate characters of a given string
+
+#Declaring a string
+string=str(input("Enter your string:"))
+print("Before removing the duplicate string:",string)
+
+#split is using to split the sentence into words and will store it in l
+l=string.split()
+
+#temp is using to store the unique words
+temp=[]
+
+#using for loop we are checking that if the word is already in temp or not
+for i in l:
+    if i not in temp:
+                 temp.append(i)
+
+#printing the string removing duplicate word
+print("After removing the duplicates:",' '.join(temp))
+
+
+
+
+
+***///OUTPUT///***
+
+= RESTART: C:/Users/DELL/duplicate.py
+Enter your string:String and String Function
+Before removing the duplicate string: String and String Function
+After removing the duplicates: String and Function
+
+                 

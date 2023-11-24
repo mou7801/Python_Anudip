@@ -1,0 +1,15 @@
+#Write a NumPy program to create an array with values ranging from 12 to 38.
+
+
+
+import numpy as np #importing numpy
+array=np.arange(12,39)#it will create numpy array from 12-38
+print("Your array is:\n",array)#it will print the array
+
+
+///***OUTPUT***///
+
+= RESTART: C:/Users/DELL/Documents/NUMPY PROGTRAM TO PRINT ARRAY FROM 12 TO 38.txt
+Your array is:
+ [12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35
+ 36 37 38]

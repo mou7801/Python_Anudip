@@ -1,0 +1,32 @@
+#Write a Python program to Count all letters, digits, and special symbols from the given string
+
+#Declaring the string
+string=str(input("Enter your String:"))
+
+#Taking the value of alphabet digits and special_chr as 0
+alphabet=digits=special_chr=0 
+
+#Using of for loop to check if there is any digit number or special character
+for i in range(len(string)):
+    if((string[i]>='a' and string[i]<='z') or (string[i]>='A' and string[i]<='Z')):
+        alphabet=(alphabet+1) #It will count the alphabet no.
+    elif(string[i]>='0' and string[i]<='9'):
+        digits=(digits+1) #It will count the digit no.
+    else:
+        special_chr=(special_chr+1) #It will count the Special_character no
+
+print("Total no of Alphabets is:",alphabet)
+print("Total no of Digitts is:",digits)
+print("Total no of Special_chr is:",special_chr)
+
+
+
+
+
+***///OUTPUT///***
+
+= RESTART: C:/Users/DELL/Documents/digit.py
+Enter your String:P@#yn26at^&i5ve
+Total no of Alphabets is: 8
+Total no of Digitts is: 3
+Total no of Special_chr is: 4

@@ -1,0 +1,25 @@
+#Write a Python program to reverse words in a string
+
+
+#Declaring a string
+word=str(input("Enter you word:"))
+
+#Splitting the string on space
+word=word.split()
+
+#Reversing the string using reversed() function
+word=list(reversed(word))
+
+#joining the splitted words using join function and printing
+print("your reversed word is:"," ".join(word),)
+
+
+
+
+
+
+***///OUTPUT///***
+
+= RESTART: C:/Users/DELL/Documents/Reverse a word using python and print them
+Enter you word:Deeptech Python Training
+your reversed word is: Training Python Deeptech

@@ -1,0 +1,50 @@
+#Python program to check if a given number is an Armstrong number
+
+
+#Defining user input
+number=int(input("Enter a number:"))
+
+#Taking sum value as 0 
+sum=0
+
+#We are using len() to return the length of the input
+number1=len(str(number))
+                      
+temp=number
+
+#using while loop we are calculating the program 
+while temp>0:
+    digit=temp%10
+    sum+=digit**number1
+    temp//=10
+
+#using if else function to check that the no is Armstrong number or not
+if number==sum:
+    print(number,"is an Armstrong no.")#if it is true
+else:
+    print(number,"is not an Armstrong no.")#if it is false
+
+
+
+    
+    
+
+***///OUTPUT///***
+
+= RESTART: C:/Users/DELL/Downloads/armstrong.py
+Enter a number:153
+153 is an Armstrong no.
+
+================= RESTART: C:/Users/DELL/Downloads/armstrong.py ================
+Enter a number:1634
+1634 is an Armstrong no.
+
+================= RESTART: C:/Users/DELL/Downloads/armstrong.py ================
+Enter a number:54748
+54748 is an Armstrong no.
+
+================= RESTART: C:/Users/DELL/Downloads/armstrong.py ================
+Enter a number:765
+765 is not an Armstrong no.
+
+
